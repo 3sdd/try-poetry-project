@@ -33,3 +33,9 @@ exit
 ```bash
 poetry add <dependency>
 ```
+
+
+
+スクリプト実行
+
+仮想環境起動して実行(`python <script.py>`) or`poetry run`を使用して実行( `poetry run python <script.py>`)
