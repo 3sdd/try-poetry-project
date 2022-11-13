@@ -9,6 +9,13 @@
 poetry new <project-name>
 ```
 
+プロジェクトフォルダー内に`.venv`を作成するように変更  
+`poetry.toml`が作られ、`in-project = true`が追加されるはず。  
+```bash
+poetry config virtualenvs.in-project true --local
+```
+
+
 必要な依存関係をインストールする
 
 ```bash
